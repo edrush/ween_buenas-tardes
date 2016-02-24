@@ -4,7 +4,7 @@
 }
 
 global = {
-  \time 3/4
+  \time 6/8
   \key a \minor
 }
 

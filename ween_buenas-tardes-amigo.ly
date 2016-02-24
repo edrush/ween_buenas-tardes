@@ -9,11 +9,14 @@
             % \set chordChanges = ##t
             \chordmode { \harmonies }
          }
-        \new Staff {
-            \solo
-   }
+         \new Staff \with {
+               midiInstrument = #"overdriven guitar"
+             }
+             \solo
    >>
 
    \layout {}
-   \midi {}
+   \midi {
+        \tempo 8 = 144
+   }
 }
