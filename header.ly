@@ -8,4 +8,6 @@ global = {
   \key a \minor
 }
 
+scoreTempo = \tempo 8 = 144 % BPM
+
 \version "2.18.2"

@@ -17,6 +17,6 @@
 
    \layout {}
    \midi {
-        \tempo 8 = 144
+        \scoreTempo
    }
 }
