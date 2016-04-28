@@ -7,12 +7,12 @@
     <<
         \new ChordNames {
             % \set chordChanges = ##t
-            \chordmode { \transpose c, d, { \harmonies} }
+            \chordmode { \transpose c, a, { \harmonies} }
          }
         \new Staff \with {
-             midiInstrument = #"clarinet"
-             instrumentName = \markup { Clar. (B\flat) }
-        } { \transpose c, d, { \solo}
+             midiInstrument = #"tenor sax"
+             instrumentName = \markup {Saxo. (E\flat) }
+        } { \transpose c, a, { \solo}
    }
    >>
 

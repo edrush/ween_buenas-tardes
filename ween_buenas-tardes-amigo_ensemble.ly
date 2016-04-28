@@ -20,7 +20,7 @@
          }
      \solo
      \new Staff \with {
-           instrumentName = #"Contrbass "
+           instrumentName = #"Contrabass "
            shortInstrumentName = #"Cb."
            midiInstrument = #"contrabass"
            midiMaximumVolume = #0.8
